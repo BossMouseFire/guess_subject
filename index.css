@@ -1,0 +1,30 @@
+.mainScreen {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  background-color: #aed9f7;
+  border-radius: 20px;
+  margin-left: 28%;
+  margin-top: 10%;
+}
+.buttonYes {
+  width: 20%;
+  margin-right: 30%;
+  margin-left: 15%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30%;
+  align-items: center;
+}
+.mainText {
+  text-align: center;
+  font-size: 200%;
+  margin-top: 15%;
+  max-width: 100%;
+  max-height: 10%;
+  font-family: Bookman, URW Bookman L, serif;
+  padding: 10px;
+}
