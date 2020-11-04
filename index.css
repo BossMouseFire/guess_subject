@@ -1,24 +1,31 @@
+.bodyStyle {
+  background-color: #E5EDF4;
+}
+
 .mainScreen {
   display: flex;
   flex-direction: column;
   width: 600px;
   height: 400px;
-  background-color: #aed9f7;
+  background-color: #A8D5F5;
   border-radius: 20px;
-  margin-left: 28%;
-  margin-top: 10%;
+  margin: 0 auto;
+  margin-top: 3%;
 }
+
 .buttonYes {
   width: 20%;
   margin-right: 30%;
   margin-left: 15%;
 }
+
 .buttons {
   display: flex;
   flex-direction: row;
   margin-top: 30%;
   align-items: center;
 }
+
 .mainText {
   text-align: center;
   font-size: 200%;
@@ -27,4 +34,39 @@
   max-height: 10%;
   font-family: Bookman, URW Bookman L, serif;
   padding: 10px;
+}
+
+.finish {
+  display: none;
+  flex-direction: row;
+  margin-top: 20%;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  margin-right: 12%;
+}
+
+.vl {
+  border: 2px solid #3875D7;
+  height: 100px;
+}
+
+.numQuesions {
+  margin-right: 10%;
+  font-size: 300%;
+}
+
+.repeat {
+  margin-left: 10%;
+}
+
+.title {
+  text-align: center;
+  font-size: 290%;
+  margin-top: 5%;
+  font-family: Palatino, URW Palladio L, serif;
 }
