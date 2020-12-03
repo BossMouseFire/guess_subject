@@ -29,19 +29,21 @@
 .mainText {
   text-align: center;
   font-size: 200%;
-  margin-top: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   max-width: 100%;
   max-height: 10%;
   font-family: Bookman, URW Bookman L, serif;
   padding: 10px;
+
 }
 
 .finish {
   display: none;
   flex-direction: row;
-  margin-top: 20%;
   align-items: center;
-  margin-left: 10%;
+  margin-left: 11%;
+  margin-bottom: 2%;
 }
 
 .questions {
@@ -69,4 +71,18 @@
   font-size: 290%;
   margin-top: 5%;
   font-family: Palatino, URW Palladio L, serif;
+}
+
+.description {
+  display: none;
+  max-width: 80%;
+  font-family: Bookman, URW Bookman L, serif;
+  max-height: 50%;
+  font-size: 110%;
+  margin: auto;
+}
+
+.mainBlock {
+  padding-left: 15px;
+  padding-right: 15px;
 }
